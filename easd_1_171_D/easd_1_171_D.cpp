@@ -44,4 +44,10 @@ void input(int arif[], int n) {
     }
 }
 
-void display(int arif[], int n)
+void display(int arif[], int n) {
+    cout << "Hasil pengurutan:\n";
+    for (int i = 0; i < n; i++) {
+        cout << arif[i] << " ";
+    }
+    cout << endl;
+}

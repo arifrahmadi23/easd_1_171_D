@@ -4,3 +4,6 @@
 
 // 2. Dalam algoritma terdapat 2 kategori dasar data struktur yaitu, Linear Data Structure dan Non-Linear Data Structure
 
+// 3. Faktor yang mempengaruhi keefisienan suatu algoritma antara lain: penggunaan memory, kecepatan eksekusi (ukuran input,struktur data)
+//	  kompleksitas algoritma, algoritma yang dipilih,dll.
+

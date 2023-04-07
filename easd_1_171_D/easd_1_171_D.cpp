@@ -33,5 +33,13 @@ void selectionSort(int arif[], int n) {
         arif[min_index] = temp;
     }
 }
-void input(int arif[], int n) {}
-    
+void input(int arif[], int n) {
+    cout << "Masukkan Panjang Data (<=91): ";
+    cin >> n;
+
+    cout << "Masukkan " << n << " data:\n";
+    for (int i = 0; i < n; i++) {
+        cout << "Data ke-" << i + 1 << ": ";
+        cin >> arif[i];
+    }
+}

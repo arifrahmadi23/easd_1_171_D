@@ -33,7 +33,5 @@ void selectionSort(int arif[], int n) {
         arif[min_index] = temp;
     }
 }
-
-
-
-
+void input(int arif[], int n) {}
+    

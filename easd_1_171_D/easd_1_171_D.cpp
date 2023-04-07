@@ -53,4 +53,10 @@ void display(int arif[], int n) {
 }
 
 int main() {
-    
+    int arif[JumlahData];
+    int n;
+    input(arif, n);
+    selectionSort(arif, n);
+    display(arif, n);
+    return 0;
+}

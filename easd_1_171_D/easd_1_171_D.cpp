@@ -34,37 +34,6 @@ void selectionSort(int arif[], int n) {
     }
 }
 
-void input(int arif[], int n) {
-    cout << "Masukkan Panjang Data (<=91): ";
-    cin >> n;
 
-    while (n > JumlahData || n < 1) {
-        cout << "Panjang data harus <= 91 dan > 0.\n";
-        cout << "Masukkan Panjang Data (<=91): ";
-        cin >> n;
-
-    cout << "Masukkan " << n << " data:\n";
-    for (int i = 0; i < n; i++) {
-        cout << "Data ke-" << i + 1 << ": ";
-        cin >> arif[i];
-    }
-}
-
-void display(int arif[], int n) {
-    cout << "Hasil pengurutan:\n";
-    for (int i = 0; i < n; i++) {
-        cout << arif[i] << " ";
-    }
-    cout << endl;
-}
-
-int main() {
-    int arif[JumlahData];
-    int n;
-    input(arif, n);
-    selectionSort(arif, n); 
-    display(arif, n);
-    return 0;
-}
 
 

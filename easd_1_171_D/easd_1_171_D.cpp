@@ -12,3 +12,5 @@
 //    dan insertion sort, sedangkan dengan merge sort dan quick sort termasuk kompleksitas waktu linear 0(n log n), dengan bentuk tersebut 
 //    kedua program tidak terlalu berpengaruh signifikan terhadap data kecil, selain itu selection lebih sederhana dan lebih mmudah dalam penerapannya.
 
+// 5. Dari algoritma yang sudah dipelajari yang termasuk quadratic adalah, Bubble sort,selection sort, insertion sort,
+//    dan yang termasuk Loglinear adalah, Merge sort, quick sort. 

@@ -2,3 +2,5 @@
 //    meneyelesaikan sebuah masalah jadi dalam penerapan algoritma sendiri akan mempermudah pengguna dalam menyelesaikan sebuah masalah
 //    karena suatu masalah dapat dibagi menjadi beberapa sub masalah dalam penyelesaiannya, jadi dapat mempermudah dan mempercepat penyelesaian.
 
+// 2. Dalam algoritma terdapat 2 kategori dasar data struktur yaitu, Linear Data Structure dan Non-Linear Data Structure
+

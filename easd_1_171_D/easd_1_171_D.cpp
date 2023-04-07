@@ -51,3 +51,6 @@ void display(int arif[], int n) {
     }
     cout << endl;
 }
+
+int main() {
+    

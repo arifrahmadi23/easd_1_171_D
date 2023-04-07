@@ -43,3 +43,5 @@ void input(int arif[], int n) {
         cin >> arif[i];
     }
 }
+
+void display(int arif[], int n)

@@ -7,3 +7,8 @@
 // 3. Faktor yang mempengaruhi keefisienan suatu algoritma antara lain: penggunaan memory, kecepatan eksekusi (ukuran input,struktur data)
 //	  kompleksitas algoritma, algoritma yang dipilih,dll.
 
+// 4. Dari 6 algoritma yang sudah dipelajari algoritma yang paling effisien dalam pengurutan data dengan ukuran kecil adalah selection sort,
+//    karena selection sort memiliki komplesitas waktu quardratic 0(n^2), dan merupakan pengurutan yang relatif lebih cepat dibanding bubble sort
+//    dan insertion sort, sedangkan dengan merge sort dan quick sort termasuk kompleksitas waktu linear 0(n log n), dengan bentuk tersebut 
+//    kedua program tidak terlalu berpengaruh signifikan terhadap data kecil, selain itu selection lebih sederhana dan lebih mmudah dalam penerapannya.
+

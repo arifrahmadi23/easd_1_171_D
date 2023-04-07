@@ -34,8 +34,13 @@ void selectionSort(int arif[], int n) {
     }
 }
 void input(int arif[], int n) {
+    while (true)
     cout << "Masukkan Panjang Data (<=91): ";
     cin >> n;
+    if (n <= 5)
+        break;
+    else
+        cout << "\n maksimum panjang array adalah 43 " << endl;
 
     cout << "Masukkan " << n << " data:\n";
     for (int i = 0; i < n; i++) {

@@ -14,3 +14,57 @@
 
 // 5. Dari algoritma yang sudah dipelajari yang termasuk quadratic adalah, Bubble sort,selection sort, insertion sort,
 //    dan yang termasuk Loglinear adalah, Merge sort, quick sort. 
+
+#include <iostream>
+using namespace std;
+
+const int JumlahData = 5;
+
+void selectionSort(int arif[], int n) {
+    for (int MR = 0; MR <= n - 2; MR++) {
+        int min_index = MR;
+        for (int i = MR + 1; i <= n - 1; i++) {
+            if (arif[i] < arif[min_index]) {
+                min_index = i;
+            }
+        }
+        int temp = arif[MR];
+        arif[MR] = arif[min_index];
+        arif[min_index] = temp;
+    }
+}
+
+void input(int arif[], int n) {
+    cout << "Masukkan Panjang Data (<=91): ";
+    cin >> n;
+
+    while (n > JumlahData || n < 1) {
+        cout << "Panjang data harus <= 91 dan > 0.\n";
+        cout << "Masukkan Panjang Data (<=91): ";
+        cin >> n;
+
+    cout << "Masukkan " << n << " data:\n";
+    for (int i = 0; i < n; i++) {
+        cout << "Data ke-" << i + 1 << ": ";
+        cin >> arif[i];
+    }
+}
+
+void display(int arif[], int n) {
+    cout << "Hasil pengurutan:\n";
+    for (int i = 0; i < n; i++) {
+        cout << arif[i] << " ";
+    }
+    cout << endl;
+}
+
+int main() {
+    int arif[JumlahData];
+    int n;
+    input(arif, n);
+    selectionSort(arif, n); 
+    display(arif, n);
+    return 0;
+}
+
+
